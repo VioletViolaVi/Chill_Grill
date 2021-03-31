@@ -1,0 +1,42 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: brown;
+    text-align: center;
+    font-family: Arial, serif;
+}
+
+#main h1 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+
+#main img {
+    width: 100%;
+}
+
+#mission h2 {
+    margin: 0.5rem 0rem;
+}
+
+#mission p {
+    margin-bottom: 2rem;
+}
+
+#gallery {
+    display: flex;
+}
+
+#gallery img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
