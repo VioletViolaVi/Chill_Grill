@@ -1,3 +1,5 @@
 $(document).ready(function () {
-    console.log("hello");
+  $(".fas.fa-bars").on("click", () => {
+    $("header").slideToggle("slow");;
+  });
 });

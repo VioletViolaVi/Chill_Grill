@@ -15,23 +15,29 @@ body {
 
 /* side nav */
 
+.fas.fa-bars {
+    position: fixed;
+    top: 0.2rem;
+    left: 0.3rem;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+
 header {
     text-align: left;
     background-color: darkred;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     z-index: 1;
     font-size: 1.5rem;
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
-.fas.fa-bars {
-    position: absolute;
-    top: 0.2rem;
-    left: 0.3rem;
-    cursor: pointer;
+#sideNav ul {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header li {
