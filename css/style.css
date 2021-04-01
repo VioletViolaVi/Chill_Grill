@@ -13,6 +13,36 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', monospace, sans-serif
 }
 
+/* side nav */
+
+header {
+    text-align: left;
+    background-color: darkred;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.fas.fa-bars {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.3rem;
+}
+
+header li {
+    margin: 6rem 0.3rem;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
 /* hero img */
 
 #main h1, #main p {
