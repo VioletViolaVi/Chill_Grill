@@ -22,12 +22,12 @@ body {
 }
 
 #main h1 {
-    top: 12%;
+    top: 3.5%;
     font-size: 3.5rem;
 }
 
 #main p {
-    top: 26%;
+    top: 8%;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -91,10 +91,33 @@ body {
 #team img {
     height: 13rem;
     width: 11rem;
-    border: solid 0.2rem white;
+    border: solid 0.5rem white;
     border-radius: 0.2rem;
 }
 
 #team figcaption {
     font-size: 1.2rem;
+}
+
+/* footer */
+
+body {
+    position: relative;
+    padding-bottom: 8.75rem;
+    min-height: 100%;
+    height: 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    min-height: 0%;
+    width: 100%;
+    background-color: darkred;
+    padding: 0.5rem 0.2rem 0rem;
+}
+
+#footer p {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
 }
