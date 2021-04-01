@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // toggles side nav
   $(".fas.fa-bars").on("click", () => {
     $("#sideNav").slideToggle("slow");
   });
