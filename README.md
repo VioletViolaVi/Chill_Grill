@@ -1,6 +1,6 @@
-# Knife and Spoon
+# Chill 'n' Grill
 
-- This project advertises eating out a restaurant called "Knife and Spoon".
+- This project advertises eating out a restaurant called "Chill Grill".
 - Scrolling through this website will showcase an advertised meals served and people who work in the restaurant.
 - This project used: HTML5 and CSS3.
 - This was a project assigned by Codecademy.
