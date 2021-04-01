@@ -62,12 +62,39 @@ body {
 }
 
 #gallery img {
-    width: 90%;
-    height: 93%;
+    width: 16rem;
+    height: 13rem;
     border-radius: 0.1rem;
     border: solid 0.5rem white;
 }
 
 #gallery figcaption {
+    font-size: 1.2rem;
+}
+
+/* team */
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#team h2 {
+    margin-bottom: 2rem;
+}
+
+#team figure {
+    margin-bottom: 1.5rem;
+}
+
+#team img {
+    height: 13rem;
+    width: 11rem;
+    border: solid 0.2rem white;
+    border-radius: 0.2rem;
+}
+
+#team figcaption {
     font-size: 1.2rem;
 }
