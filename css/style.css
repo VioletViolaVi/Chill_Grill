@@ -15,6 +15,10 @@ body {
 
 /* side nav */
 
+#topNav {
+    display: none;
+}
+
 .fas.fa-bars {
     position: fixed;
     top: 0.2rem;
@@ -38,10 +42,10 @@ body {
 #sideNav li {
     margin: 6rem 0.3rem;
     font-size: 2rem;
+    list-style: none;
 }
 
 a {
-    list-style: none;
     text-decoration: none;
     color: white;
 }
@@ -217,6 +221,27 @@ body {
     /* side nav */
     .fas.fa-bars, #sideNav {
         display: none;
+    }
+    #topNav {
+        display: block;
+    }
+    #topNav ul {
+        text-align: right;
+        position: absolute;
+        top: 1.5rem;
+        right: 0rem;
+        font-size: 2.2rem;
+    }
+    #topNav li {
+        list-style: none;
+        display: inline;
+        margin-right: 2.2rem;
+        border: 0.1rem solid white;
+        padding: 0rem 0.2rem;
+        opacity: 0.8;
+    }
+    #topNav li:hover {
+        font-weight: bolder;
     }
     /* main */
     #main img {
