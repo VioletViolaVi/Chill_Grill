@@ -24,7 +24,7 @@ body {
     font-size: 1.5rem;
 }
 
-header {
+#sideNav {
     text-align: left;
     background-color: darkred;
     width: 50%;
@@ -35,13 +35,9 @@ header {
     display: none;
 }
 
-#sideNav ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header li {
+#sideNav li {
     margin: 6rem 0.3rem;
+    font-size: 2rem;
 }
 
 a {
@@ -50,7 +46,7 @@ a {
     color: white;
 }
 
-/* hero img */
+/* main */
 
 #main h1, #main p {
     position: absolute;
@@ -59,12 +55,12 @@ a {
 }
 
 #main h1 {
-    top: 3.5%;
+    top: 3%;
     font-size: 3.5rem;
 }
 
 #main p {
-    top: 8%;
+    top: 7%;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -88,7 +84,12 @@ a {
 
 /* gallery */
 
-#gallery {
+#gallery h2 {
+    margin: 0.5rem 0rem;
+    font-size: 2rem;
+}
+
+#gallery section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -111,14 +112,10 @@ a {
 
 /* team */
 
-#team {
+#team section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-#team h2 {
-    margin-bottom: 2rem;
 }
 
 #team figure {
@@ -130,6 +127,7 @@ a {
     width: 11rem;
     border: solid 0.5rem white;
     border-radius: 0.2rem;
+    margin: 3rem;
 }
 
 #team figcaption {
@@ -157,4 +155,94 @@ body {
 #footer p {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 406px) {
+    /* team */
+    #team img {
+        height: 16rem;
+        width: 14rem;
+    }
+    #team figcaption {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 529px) {
+    /* main */
+    #main p {
+        top: 6%;
+        font-size: 1.4rem;
+    }
+    /* gallery */
+    #gallery figure {
+        margin: 2rem;
+    }
+}
+
+@media only screen and (min-width: 657px) {
+    /* side nav */
+    #sideNav {
+        width: 35%;
+    }
+    /* main */
+    #main h1 {
+        top: 3%;
+        font-size: 4.4rem;
+    }
+    #main p {
+        top: 8%;
+        font-size: 1.7rem;
+    }
+    /* gallery */
+    #gallery figcaption {
+        font-size: 1.5rem;
+    }
+    #gallery h2 {
+        font-size: 2.5rem;
+    }
+    /* team */
+    #team h2 {
+        font-size: 2.5rem;
+    }
+    /* mission */
+    #mission h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 978px) {
+    /* side nav */
+    .fas.fa-bars, #sideNav {
+        display: none;
+    }
+    /* main */
+    #main img {
+        height: 26rem;
+    }
+    #main h1 {
+        top: 9%;
+        font-size: 6.6rem;
+    }
+    #main p {
+        top: 20%;
+        font-size: 2.7rem;
+    }
+    /* mission */
+    #mission {
+        margin-top: 3rem;
+    }
+    /* gallery */
+    #gallery h2 {
+        margin-top: 5rem;
+    }
+    /* team */
+    #team h2 {
+        margin-top: 5rem;
+    }
+    #team img {
+        margin-bottom: 0rem;
+    }
 }
